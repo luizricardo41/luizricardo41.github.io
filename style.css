@@ -1,9 +1,42 @@
 div{
   border: 3px solid blue;
 }
+body {
+background-color: #36393B;
+}
+.name {
+  position: absolute;
+  color: darkgrey;
+  left: 100px;
+}
+.photo {
+  position: absolute;
+  top:100px;
+  left: 50px;
+  right: 50px;
+}
+.hard {
+  position: absolute;
+  top: 785px;
+  left: 50px;
+}
+.soft {
+  position: absolute;
+  top: 785px;
+  right: 50px;
+}
+.social {
+    position: absolute;
+    background-color: white;
+    top: 925px;
+    left: 50px;
+    right: 50px;
+}
 .fa-linkedin{
   color: #0a66c2;
   font-size: 50px;
+  float:right;
+  
 }
 .fa-github-square {
   color: black;
