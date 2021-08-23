@@ -1,0 +1,93 @@
+/*div{
+  border: 3px solid blue;
+}*/
+body {
+  background-color: #36393B;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name {
+  position: absolute;
+  color: white;
+  left: 100px; 
+}
+#foto {
+  width: 200px;
+  border-radius: 10%;
+}
+.photo {
+  position: absolute;
+  top:100px;
+  left: 50px;
+  padding: 3px;
+  background-color: white;
+  border-radius: 10%;
+}
+.sobre {
+  position: absolute;
+  left: 300px;
+  right: 250px;
+  top: 100px;
+  bottom: 180px;
+}
+.indice {
+  position: fixed;
+  right: 50px;
+  left: 1100px;
+  bottom: 450px;
+}
+.list {
+  position: absolute;
+  list-style: none;
+  left: 245px;
+}
+.list2 {
+  position: absolute;
+  list-style: none;
+  left: 195px;
+}
+.soft {
+  position: absolute;
+  top: 400px;
+  right: 50px;
+  left: 663px;
+  text-align: center;
+  list-style: none;
+  background-color: black;
+}
+.hard {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  right: 685px;
+  text-align: center;
+  background-color: black;
+}
+.social {
+    position: absolute;
+    background-color: white;
+    top: 550px;
+    left: 50px;
+    right: 50px;
+}
+.fa-linkedin{
+  color: #0a66c2;
+  font-size: 50px;
+  float:right;
+  margin: auto;
+  width: 4em;
+}
+.fa-github-square {
+  color: black;
+  font-size: 50px;
+  float:right;
+  margin: auto;
+  width: 11em;
+}
+.indice li{
+  list-style: none;
+}
+.sobre-padding {
+  padding: 10xp;
+  background-color: white;
+}
